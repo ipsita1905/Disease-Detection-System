@@ -51,3 +51,7 @@ if st.button("Predict"):
 st.header("Model Information")
 st.write("This model predicts the risk of diabetes based on medical parameters.")
 st.write("Accuracy metrics are displayed in the training script.")
+
+st.write("---------------------------------------------------------------------------")
+st.write("© 2026 AI-Based Early Disease Detection System.")
+st.write("Created by IPSITA DAS")
