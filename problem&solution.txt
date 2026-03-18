@@ -1,0 +1,44 @@
+# PROBLEM STATEMENT
+## TRACK 1: ARTIFICIAL INTELLIGENCE (AI)
+1. AI-Based Early Disease Detection System
+
+- Background
+Healthcare systems often face delays in detecting diseases due to limited diagnostic resources. 
+AI can assist doctors by analyzing medical data to detect early signs of diseases.
+
+- Challenge
+Develop an AI-powered system that can analyze patient symptoms or medical images and provide early 
+disease prediction.
+
+- Expected Features
+* Machine learning model for disease prediction
+* Dataset preprocessing and training
+* Prediction interface or dashboard
+* Accuracy evaluation metrics
+
+
+- Expected Outcome
+A working AI model that predicts potential diseases based on given input data.
+
+
+# SOLUTION
+
+- AI-Driven Symptom Analysis: The primary solution is an AI-based engine that processes user-inputted 
+symptoms to provide a potential diagnosis for a patient
+
+- 100% Python Development: The system is implemented entirely in Python, ensuring compatibility with 
+major machine learning and data science libraries
+
+- Modular Project Architecture: The repository is structured to separate different stages of the development 
+process into organized folders:
+data: For housing the datasets required for system training and testing
+
+- models: For storing the serialized AI models used to perform the detections
+
+- src: For containing the executable source code and logic of the application
+
+- Configurable Training Workflows: The inclusion of a pdtrain.yaml file suggests a solution for managing 
+training parameters and configurations through an external file, allowing for easier experimentation
+
+- Standardized Dependency Management: The project uses a requirements.txt file to list all necessary 
+Python packages, ensuring that the development environment is consistent across different machines
